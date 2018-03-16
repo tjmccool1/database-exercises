@@ -11,3 +11,5 @@ CREATE TABLE albums(
   PRIMARY KEY (id)
 
 )
+--must be in the dir of file to run;
+--mysql -u codeup_test_user -p < albums_migration.sql

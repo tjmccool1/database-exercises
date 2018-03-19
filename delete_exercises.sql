@@ -2,10 +2,10 @@ USE codeup_test_db
 -- SELECT
 SELECT name
 FROM albums
-Where release_date = 1991;
+Where release_date > 1991;
 --DELETE
 DELETE FROM albums
-WHERE release_date = 1991;
+WHERE release_date > 1991;
 
 -- SELECT
 SELECT name

@@ -58,7 +58,7 @@ WHERE last_name LIKE 'E%' AND last_name LIKE '%E';
 # or
 SELECT last_name, first_name
 FROM employees
-WHERE last_name LIKE '%E%';
+WHERE last_name LIKE 'E%E';
 
 # 5 Find all employees hired in the 90s and born on Christmas — 362 rows.
 SELECT hire_date ,birth_date, last_name, first_name
